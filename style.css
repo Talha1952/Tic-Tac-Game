@@ -1,0 +1,102 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #2E86AB;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    background-color:#BCB6FF;
+    font-size: 50px;
+    padding: 1rem;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.game{
+    width: 60vmin;
+    height: 60vmin ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.box{
+    width: 18vmin;
+    height: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgb(0,0,0, 0.5);
+    font-size: 8vmin;
+    color: #2E86AB;
+    background-color: aliceblue;
+}
+
+.box:hover{
+    background-color: #BCB6FF;
+    cursor: pointer;
+}
+
+#reset-btn{
+    padding: 1.5rem;
+    font-size: 1.7rem;
+    border-radius: 1rem;
+    border: none;
+
+}
+#reset-btn:hover{
+    background-color: #BCB6FF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.msg-container{
+     height:100vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+
+}
+
+.msg{
+    color:#BCB6FF;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+}
+
+#new-btn{
+     padding: 1.5rem;
+    font-size: 1.7rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+#new-btn:hover{
+    background-color: #BCB6FF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.hide {
+    display: none;
+}
